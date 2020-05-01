@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+    color: white;
+    font-family: 'Clash Of Clans', sans-serif;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.header{
+    width:100%;
+    background-color: #504D3C;
+    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1{
+    padding: 10px;
+    text-align:left;
+    display: inline-block;
+}
+.header a{
+    padding: 10px;
+    color: white;
+    float:right;
+    background-color: #333333;
+    box-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-decoration:none;
+}
+table{
+    width:100%;
+    border-spacing: 0 5px;
+}
+tr{
+    background-color: #F8F6F6;
+}
+td{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.rank{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    /*background-color: gold; */
+    border-left: 1px solid white;
+}
+.equals{
+    padding: 10px;
+    border-right: 1px solid white;
+}
+.badge{
+    border-left: 1px solid white;
+}
+.name{
+    width:40%
+}
+.won{
+    border-right: 1px solid white;
+}
+.lost{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.drew{
+    width:40%;
+    border-left: 1px solid white;
+}
+.score{
+    background-color: #EBD089;
+    border-right: 1px solid white;
+    text-align: right;
+    padding: 10px;
+}
+
+@font-face{
+    font-family: supercell-magic;
+    src: url("supercell-magic.ttf");}

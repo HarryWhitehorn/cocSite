@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <div class="header">
+            <h1>(?) TOP WAR CLANS IN CLASH OF CLANS</h1>
+            <a href="#">SEE ALL WAR CLANS</a>
+        </div>
+        <table>
+            {% for clan in clans %}
+                <tr>
+                    <td class="rank">{{clan.rank}}.</td>
+                    <td class="equals"> = </td>
+                    <td class="badge">(?)</td>
+                    <td class="name">{{clan.name}}</td>
+                    <td class="won">(?)</td>
+                    <td class="lost">(?)</td>
+                    <td class="drew">(?)</td>
+                    <td class="score">{{clan.score}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</htm>
