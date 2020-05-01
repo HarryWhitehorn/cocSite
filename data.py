@@ -18,7 +18,7 @@ class ClanGen:
 
     @staticmethod
     def generateRandom(n=10):
-        return [Clan(ClanGen.nameGen(),500-i*50,i) for i in range(1,n+1)]
+        return [Clan(ClanGen.nameGen(),n*50-i*50,i) for i in range(1,n+1)]
 
 if __name__ == "__main__":
     data = ClanGen.generateRandom()
