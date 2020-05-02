@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='img/CocFavicon.ico') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+        <style>
+            .testImg{
+                background: image("{{ url_for('static', filename='img/badges/b1.png') }}");
+            }
+        </style>
+    </head>
+    <body>
+        <h1>TEST</h1>
+        <span class="testImg"></span>
+    </body>
+</htm>
